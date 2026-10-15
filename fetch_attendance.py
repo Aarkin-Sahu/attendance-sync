@@ -18,7 +18,7 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 CV_USER = "202501100200005"
 CV_PASS = "Aarkin@12345"
 GMAIL_USER = "aarkin.25002005@kiet.edu"        # the Gmail that receives the OTP
-GMAIL_APP_PASS = "PUT_YOUR_16_CHAR_APP_PASSWORD_HERE"
+GMAIL_APP_PASS = "esgg pwlu isoo iovv"
 # =======================================
 
 BASE = "https://kiet.cybervidya.net"
