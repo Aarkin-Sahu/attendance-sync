@@ -1,0 +1,277 @@
+{
+  "last_updated": "2026-10-15T09:37:51+00:00",
+  "data": {
+    "fullName": "Aarkin Sahu",
+    "firstName": "Aarkin",
+    "middleName": "",
+    "lastName": "Sahu",
+    "registrationNumber": "202501100200005",
+    "rollNumber": "2500290100005",
+    "sectionName": "A",
+    "branchShortName": "CSE",
+    "degreeName": "Bachelor of Technology",
+    "semesterName": "III",
+    "admissionBatchName": "2025-2029",
+    "academicSessionName": "2026-2027 Odd",
+    "degreeBranchSemesterName": "Bachelor of Technology - CSE - III",
+    "totalComponent": 12,
+    "facultyScopeName": "GENERAL",
+    "schoolName": "GENERAL",
+    "isSchoolEnable": false,
+    "isFacultyScopeEnable": false,
+    "attendanceCourseComponentInfoList": [
+      {
+        "courseName": "Advance Data Structure",
+        "courseId": 338,
+        "courseCode": "CS302B",
+        "attendanceCourseComponentNameInfoList": [
+          {
+            "componentName": "BLENDED",
+            "courseVariant": "CS302B-Bachelor of Technology-CS302B-2026-2027 Odd-CSE-III-A",
+            "numberOfPeriods": 44.0,
+            "numberOfPresent": 40.0,
+            "presentPercentage": 91.0,
+            "presentPercentageWith": "91%",
+            "courseComponentId": 351,
+            "courseRegisterDate": "2026-08-01",
+            "courseAttendanceDate": null,
+            "strCourseRegisterDate": null,
+            "attendanceAdjusted": null,
+            "numberOfExtraAttendance": 0.0
+          }
+        ]
+      },
+      {
+        "courseName": "Aptitude-1",
+        "courseId": 336,
+        "courseCode": "HS110L",
+        "attendanceCourseComponentNameInfoList": [
+          {
+            "componentName": "THEORY",
+            "courseVariant": "HS110L-Bachelor of Technology-HS110L-2026-2027 Odd-CSE-III-A",
+            "numberOfPeriods": 8.0,
+            "numberOfPresent": 7.0,
+            "presentPercentage": 88.0,
+            "presentPercentageWith": "88%",
+            "courseComponentId": 349,
+            "courseRegisterDate": "2026-08-03",
+            "courseAttendanceDate": null,
+            "strCourseRegisterDate": null,
+            "attendanceAdjusted": null,
+            "numberOfExtraAttendance": 0.0
+          }
+        ]
+      },
+      {
+        "courseName": "Artificial Intelligence and It's Applications",
+        "courseId": 339,
+        "courseCode": "CS205B",
+        "attendanceCourseComponentNameInfoList": [
+          {
+            "componentName": "BLENDED",
+            "courseVariant": "CS205B-Bachelor of Technology-CS205B-2026-2027 Odd-CSE-III-A",
+            "numberOfPeriods": 51.0,
+            "numberOfPresent": 43.0,
+            "presentPercentage": 84.0,
+            "presentPercentageWith": "84%",
+            "courseComponentId": 352,
+            "courseRegisterDate": "2026-08-01",
+            "courseAttendanceDate": null,
+            "strCourseRegisterDate": null,
+            "attendanceAdjusted": null,
+            "numberOfExtraAttendance": 0.0
+          }
+        ]
+      },
+      {
+        "courseName": "Constitution of India",
+        "courseId": 335,
+        "courseCode": "HS109L",
+        "attendanceCourseComponentNameInfoList": [
+          {
+            "componentName": "THEORY",
+            "courseVariant": "HS109L-Bachelor of Technology-HS109L-2026-2027 Odd-CSE-III-A",
+            "numberOfPeriods": 9.0,
+            "numberOfPresent": 8.0,
+            "presentPercentage": 89.0,
+            "presentPercentageWith": "89%",
+            "courseComponentId": 348,
+            "courseRegisterDate": "2026-08-01",
+            "courseAttendanceDate": null,
+            "strCourseRegisterDate": null,
+            "attendanceAdjusted": null,
+            "numberOfExtraAttendance": 0.0
+          }
+        ]
+      },
+      {
+        "courseName": "Database Systems",
+        "courseId": 329,
+        "courseCode": "IT301L",
+        "attendanceCourseComponentNameInfoList": [
+          {
+            "componentName": "THEORY",
+            "courseVariant": "IT301L-Bachelor of Technology-IT301L-2026-2027 Odd-CSE-III-A",
+            "numberOfPeriods": 24.0,
+            "numberOfPresent": 23.0,
+            "presentPercentage": 96.0,
+            "presentPercentageWith": "96%",
+            "courseComponentId": 342,
+            "courseRegisterDate": "2026-08-01",
+            "courseAttendanceDate": null,
+            "strCourseRegisterDate": null,
+            "attendanceAdjusted": null,
+            "numberOfExtraAttendance": 0.0
+          }
+        ]
+      },
+      {
+        "courseName": "Database Systems Lab",
+        "courseId": 340,
+        "courseCode": "IT301P",
+        "attendanceCourseComponentNameInfoList": [
+          {
+            "componentName": "PRACTICAL",
+            "courseVariant": "IT301P-Bachelor of Technology-IT301P-2026-2027 Odd-CSE-III-A",
+            "numberOfPeriods": 10.0,
+            "numberOfPresent": 10.0,
+            "presentPercentage": 100.0,
+            "presentPercentageWith": "100%",
+            "courseComponentId": 353,
+            "courseRegisterDate": "2026-08-01",
+            "courseAttendanceDate": null,
+            "strCourseRegisterDate": null,
+            "attendanceAdjusted": null,
+            "numberOfExtraAttendance": 0.0
+          }
+        ]
+      },
+      {
+        "courseName": "Object Oriented Programming with Java",
+        "courseId": 612,
+        "courseCode": "CS336B",
+        "attendanceCourseComponentNameInfoList": [
+          {
+            "componentName": "BLENDED",
+            "courseVariant": "CS336B-Bachelor of Technology-CS336B-2026-2027 Odd-CSE-III-A",
+            "numberOfPeriods": 47.0,
+            "numberOfPresent": 42.0,
+            "presentPercentage": 89.0,
+            "presentPercentageWith": "89%",
+            "courseComponentId": 625,
+            "courseRegisterDate": "2026-08-01",
+            "courseAttendanceDate": null,
+            "strCourseRegisterDate": null,
+            "attendanceAdjusted": null,
+            "numberOfExtraAttendance": 0.0
+          }
+        ]
+      },
+      {
+        "courseName": "Operating System",
+        "courseId": 219,
+        "courseCode": "CS206L",
+        "attendanceCourseComponentNameInfoList": [
+          {
+            "componentName": "THEORY",
+            "courseVariant": "CS206L-Bachelor of Technology-CS206L-2026-2027 Odd-CSE-III-A",
+            "numberOfPeriods": 27.0,
+            "numberOfPresent": 23.0,
+            "presentPercentage": 85.0,
+            "presentPercentageWith": "85%",
+            "courseComponentId": 230,
+            "courseRegisterDate": "2026-08-01",
+            "courseAttendanceDate": null,
+            "strCourseRegisterDate": null,
+            "attendanceAdjusted": null,
+            "numberOfExtraAttendance": 0.0
+          }
+        ]
+      },
+      {
+        "courseName": "Operating System Lab",
+        "courseId": 221,
+        "courseCode": "CS206P",
+        "attendanceCourseComponentNameInfoList": [
+          {
+            "componentName": "PRACTICAL",
+            "courseVariant": "CS206P-Bachelor of Technology-CS206P-2026-2027 Odd-CSE-III-A",
+            "numberOfPeriods": 15.0,
+            "numberOfPresent": 15.0,
+            "presentPercentage": 100.0,
+            "presentPercentageWith": "100%",
+            "courseComponentId": 232,
+            "courseRegisterDate": "2026-08-01",
+            "courseAttendanceDate": null,
+            "strCourseRegisterDate": null,
+            "attendanceAdjusted": null,
+            "numberOfExtraAttendance": 0.0
+          }
+        ]
+      },
+      {
+        "courseName": "Probability and Statistics",
+        "courseId": 331,
+        "courseCode": "MA105L",
+        "attendanceCourseComponentNameInfoList": [
+          {
+            "componentName": "THEORY",
+            "courseVariant": "MA105L-Bachelor of Technology-MA105L-2026-2027 Odd-CSE-III-A",
+            "numberOfPeriods": 23.0,
+            "numberOfPresent": 22.0,
+            "presentPercentage": 96.0,
+            "presentPercentageWith": "96%",
+            "courseComponentId": 344,
+            "courseRegisterDate": "2026-08-03",
+            "courseAttendanceDate": null,
+            "strCourseRegisterDate": null,
+            "attendanceAdjusted": null,
+            "numberOfExtraAttendance": 0.0
+          }
+        ]
+      },
+      {
+        "courseName": "Social Internship Assessment",
+        "courseId": 342,
+        "courseCode": "IT105P",
+        "attendanceCourseComponentNameInfoList": [
+          {
+            "componentName": "PROJECT",
+            "courseVariant": "IT105P-Bachelor of Technology-IT105P-2026-2027 Odd-CSE-III-A",
+            "numberOfPeriods": 0.0,
+            "numberOfPresent": 0.0,
+            "presentPercentage": null,
+            "presentPercentageWith": "0%",
+            "courseComponentId": 355,
+            "courseRegisterDate": "2026-08-01",
+            "courseAttendanceDate": null,
+            "strCourseRegisterDate": null,
+            "attendanceAdjusted": null,
+            "numberOfExtraAttendance": 0.0
+          }
+        ]
+      },
+      {
+        "courseName": "Soft Skills Essential-1",
+        "courseId": 337,
+        "courseCode": "HS111L",
+        "attendanceCourseComponentNameInfoList": [
+          {
+            "componentName": "THEORY",
+            "courseVariant": "HS111L-Bachelor of Technology-HS111L-2026-2027 Odd-CSE-III-A",
+            "numberOfPeriods": 9.0,
+            "numberOfPresent": 6.0,
+            "presentPercentage": 67.0,
+            "presentPercentageWith": "67%",
+            "courseComponentId": 350,
+            "courseRegisterDate": "2026-08-03",
+            "courseAttendanceDate": null,
+            "strCourseRegisterDate": null,
+            "attendanceAdjusted": null,
+            "numberOfExtraAttendance": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}
