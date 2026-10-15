@@ -1,0 +1,32 @@
+name: sync-attendance
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # every 2 hours (UTC), may start a few minutes late
+  workflow_dispatch:         # run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests cryptography
+      - run: python fetch_attendance.py
+        env:
+          CV_USER: ${{ secrets.CV_USER }}
+          CV_PASS: ${{ secrets.CV_PASS }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
+      - name: Commit
+        run: |
+          git config user.name "sync-bot"
+          git config user.email "sync-bot@users.noreply.github.com"
+          git add attendance.json
+          git diff --cached --quiet || (git commit -m "update attendance" && git pull --rebase && git push)
