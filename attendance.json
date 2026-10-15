@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15T09:37:51+00:00",
+  "last_updated": "2026-10-15T10:45:54+00:00",
   "data": {
     "fullName": "Aarkin Sahu",
     "firstName": "Aarkin",
@@ -37,7 +37,8 @@
             "courseAttendanceDate": null,
             "strCourseRegisterDate": null,
             "attendanceAdjusted": null,
-            "numberOfExtraAttendance": 0.0
+            "numberOfExtraAttendance": 0.0,
+            "lectures": []
           }
         ]
       },
@@ -58,7 +59,8 @@
             "courseAttendanceDate": null,
             "strCourseRegisterDate": null,
             "attendanceAdjusted": null,
-            "numberOfExtraAttendance": 0.0
+            "numberOfExtraAttendance": 0.0,
+            "lectures": []
           }
         ]
       },
@@ -79,7 +81,8 @@
             "courseAttendanceDate": null,
             "strCourseRegisterDate": null,
             "attendanceAdjusted": null,
-            "numberOfExtraAttendance": 0.0
+            "numberOfExtraAttendance": 0.0,
+            "lectures": []
           }
         ]
       },
@@ -100,7 +103,8 @@
             "courseAttendanceDate": null,
             "strCourseRegisterDate": null,
             "attendanceAdjusted": null,
-            "numberOfExtraAttendance": 0.0
+            "numberOfExtraAttendance": 0.0,
+            "lectures": []
           }
         ]
       },
@@ -121,7 +125,8 @@
             "courseAttendanceDate": null,
             "strCourseRegisterDate": null,
             "attendanceAdjusted": null,
-            "numberOfExtraAttendance": 0.0
+            "numberOfExtraAttendance": 0.0,
+            "lectures": []
           }
         ]
       },
@@ -142,7 +147,8 @@
             "courseAttendanceDate": null,
             "strCourseRegisterDate": null,
             "attendanceAdjusted": null,
-            "numberOfExtraAttendance": 0.0
+            "numberOfExtraAttendance": 0.0,
+            "lectures": []
           }
         ]
       },
@@ -163,7 +169,8 @@
             "courseAttendanceDate": null,
             "strCourseRegisterDate": null,
             "attendanceAdjusted": null,
-            "numberOfExtraAttendance": 0.0
+            "numberOfExtraAttendance": 0.0,
+            "lectures": []
           }
         ]
       },
@@ -184,7 +191,8 @@
             "courseAttendanceDate": null,
             "strCourseRegisterDate": null,
             "attendanceAdjusted": null,
-            "numberOfExtraAttendance": 0.0
+            "numberOfExtraAttendance": 0.0,
+            "lectures": []
           }
         ]
       },
@@ -205,7 +213,8 @@
             "courseAttendanceDate": null,
             "strCourseRegisterDate": null,
             "attendanceAdjusted": null,
-            "numberOfExtraAttendance": 0.0
+            "numberOfExtraAttendance": 0.0,
+            "lectures": []
           }
         ]
       },
@@ -226,7 +235,8 @@
             "courseAttendanceDate": null,
             "strCourseRegisterDate": null,
             "attendanceAdjusted": null,
-            "numberOfExtraAttendance": 0.0
+            "numberOfExtraAttendance": 0.0,
+            "lectures": []
           }
         ]
       },
@@ -247,7 +257,8 @@
             "courseAttendanceDate": null,
             "strCourseRegisterDate": null,
             "attendanceAdjusted": null,
-            "numberOfExtraAttendance": 0.0
+            "numberOfExtraAttendance": 0.0,
+            "lectures": []
           }
         ]
       },
@@ -268,7 +279,8 @@
             "courseAttendanceDate": null,
             "strCourseRegisterDate": null,
             "attendanceAdjusted": null,
-            "numberOfExtraAttendance": 0.0
+            "numberOfExtraAttendance": 0.0,
+            "lectures": []
           }
         ]
       }
