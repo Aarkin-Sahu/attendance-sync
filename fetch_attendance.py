@@ -19,6 +19,7 @@ CV_USER = "202501100200005"
 CV_PASS = "Aarkin@12345"
 GMAIL_USER = "aarkin.25002005@kiet.edu"        # the Gmail that receives the OTP
 GMAIL_APP_PASS = "esgg pwlu isoo iovv"
+STUDENT_ID = 5048    # your CyberVidya internal student id (from the lecture request payload)
 # =======================================
 
 BASE = "https://kiet.cybervidya.net"
@@ -170,10 +171,12 @@ def find_key(obj, names):
 def add_lectures(s, token, data):
     """Attach a per-lecture list (date, time, status) to every subject component."""
     hdr = {"Authorization": f"GlobalEducation {token}"}
-    student_id = find_key(data, ["studentId"]) or find_key(getattr(s, "login_body", {}), ["studentId"])
+    student_id = STUDENT_ID or find_key(data, ["studentId"]) or find_key(getattr(s, "login_body", {}), ["studentId"])
     for course in data.get("attendanceCourseComponentInfoList") or []:
         for k in course.get("attendanceCourseComponentNameInfoList") or []:
             k["lectures"] = []
+            if not k.get("numberOfPeriods"):
+                continue   # no classes held yet
             cid = find_key(course, ["courseId"])
             comp = find_key(k, ["courseCompId", "courseComponentId", "componentId"])
             name = f"{course.get('courseName')} / {k.get('componentName')}"
