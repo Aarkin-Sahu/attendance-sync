@@ -119,6 +119,7 @@ def login(s):
         if r.status_code == 400:
             raise RuntimeError("Wrong CyberVidya username or password")
         if r.ok and token_of(r.json()):
+            s.login_body = r.json()
             log("Logged in (no OTP needed)")
             return token_of(r.json())
     except (requests.RequestException, ValueError):
@@ -137,6 +138,7 @@ def login(s):
         r = s.post(f"{BASE}/api/auth/verify/otp", timeout=30, json={
             "otp": otp, "transactionId": txn, "device": "WEB", "version": None})
         if r.ok and token_of(r.json()):
+            s.login_body = r.json()
             log("Logged in")
             return token_of(r.json())
         log(f"OTP rejected (HTTP {r.status_code}), attempt {attempt}")
@@ -144,17 +146,72 @@ def login(s):
     raise RuntimeError("Could not log in with OTP")
 
 
+LECTURE_URL = f"{BASE}/api/attendance/schedule/student/course/attendance/percentage"
+
+
+def find_key(obj, names):
+    """First non-null value for any of `names`, searching nested dicts/lists."""
+    if isinstance(obj, dict):
+        for n in names:
+            if obj.get(n) is not None:
+                return obj[n]
+        for v in obj.values():
+            f = find_key(v, names)
+            if f is not None:
+                return f
+    elif isinstance(obj, list):
+        for v in obj:
+            f = find_key(v, names)
+            if f is not None:
+                return f
+    return None
+
+
+def add_lectures(s, token, data):
+    """Attach a per-lecture list (date, time, status) to every subject component."""
+    hdr = {"Authorization": f"GlobalEducation {token}"}
+    student_id = find_key(data, ["studentId"]) or find_key(getattr(s, "login_body", {}), ["studentId"])
+    for course in data.get("attendanceCourseComponentInfoList") or []:
+        for k in course.get("attendanceCourseComponentNameInfoList") or []:
+            k["lectures"] = []
+            cid = find_key(course, ["courseId"])
+            comp = find_key(k, ["courseCompId", "courseComponentId", "componentId"])
+            name = f"{course.get('courseName')} / {k.get('componentName')}"
+            if not (student_id and cid and comp):
+                log(f"Missing IDs for {name}: studentId={student_id} courseId={cid} compId={comp}; "
+                    f"course keys={sorted(course)}; component keys={sorted(k)}")
+                continue
+            try:
+                r = s.post(LECTURE_URL, headers=hdr, timeout=30, json={
+                    "studentId": student_id, "sessionId": None,
+                    "courseId": cid, "courseCompId": comp})
+                r.raise_for_status()
+                items = r.json().get("data") or []
+            except Exception as e:
+                log(f"Lecture fetch failed for {name}: {type(e).__name__}: {e}")
+                continue
+            lectures = [{"date": l.get("planLecDate"), "day": l.get("dayName"),
+                         "time": l.get("timeSlot"), "type": l.get("lectureType"),
+                         "status": l.get("attendance")}
+                        for item in items for l in (item.get("lectureList") or [])]
+            lectures.sort(key=lambda x: x["date"] or "", reverse=True)
+            k["lectures"] = lectures
+            log(f"{name}: {len(lectures)} lectures")
+
+
 def main():
-    if any("PUT_YOUR" in v for v in (CV_USER, CV_PASS, GMAIL_USER, GMAIL_APP_PASS)):
-        raise RuntimeError("Edit the four values at the top of fetch_attendance.py first")
+    if "PUT_YOUR" in GMAIL_APP_PASS:
+        raise RuntimeError("Put your Gmail app password in fetch_attendance.py first")
     s = requests.Session()
     s.headers["User-Agent"] = UA
     token = login(s)
     r = s.get(f"{BASE}/api/attendance/course/component/student", timeout=30,
               headers={"Authorization": f"GlobalEducation {token}"})
     r.raise_for_status()
+    data = r.json()["data"]
+    add_lectures(s, token, data)
     out = {"last_updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-           "data": r.json()["data"]}
+           "data": data}
     path = os.environ.get("OUT_FILE", "attendance.json")
     with open(path + ".tmp", "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2, ensure_ascii=False)
