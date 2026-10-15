@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """KIET CyberVidya -> attendance.json  (login + OTP from Gmail + attendance).
 
-Env vars: CV_USER, CV_PASS, GMAIL_USER, GMAIL_APP_PASS
-Saves the server's attendance response as-is, plus a last_updated timestamp.
+Fill in the four values below, then run. Saves the server's attendance
+response as-is, plus a last_updated timestamp.
 """
 import base64, email, imaplib, json, os, re, sys, time
 from datetime import datetime, timedelta, timezone
@@ -13,6 +13,13 @@ from html import unescape
 import requests
 from cryptography.hazmat.primitives import padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+
+# ======== EDIT THESE FOUR LINES ========
+CV_USER = "202501100200005"
+CV_PASS = "Aarkin@12345"
+GMAIL_USER = "aarkin.25002005@kiet.edu"        # the Gmail that receives the OTP
+GMAIL_APP_PASS = "PUT_YOUR_16_CHAR_APP_PASSWORD_HERE"
+# =======================================
 
 BASE = "https://kiet.cybervidya.net"
 KEY = base64.b64decode("NPdLWA5w7yFQhPeUuKmO/A==")   # public values from the site's own JS
@@ -61,7 +68,7 @@ def otp_in_inbox(since_ts):
     day = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%d-%b-%Y")
     imap = imaplib.IMAP4_SSL("imap.gmail.com")
     try:
-        imap.login(os.environ["GMAIL_USER"], os.environ["GMAIL_APP_PASS"])
+        imap.login(GMAIL_USER, GMAIL_APP_PASS.replace(" ", ""))
         imap.select("INBOX", readonly=True)
         _, data = imap.search(None, "SINCE", day)
         for mid in reversed((data[0] or b"").split()[-15:]):
@@ -105,7 +112,7 @@ def token_of(body):
 
 
 def login(s):
-    user, pw = os.environ["CV_USER"], os.environ["CV_PASS"]
+    user, pw = CV_USER, CV_PASS
 
     try:   # accounts without OTP get a token straight away
         r = s.post(f"{BASE}/api/auth/login", json={"userName": user, "password": pw}, timeout=30)
@@ -138,6 +145,8 @@ def login(s):
 
 
 def main():
+    if any("PUT_YOUR" in v for v in (CV_USER, CV_PASS, GMAIL_USER, GMAIL_APP_PASS)):
+        raise RuntimeError("Edit the four values at the top of fetch_attendance.py first")
     s = requests.Session()
     s.headers["User-Agent"] = UA
     token = login(s)
