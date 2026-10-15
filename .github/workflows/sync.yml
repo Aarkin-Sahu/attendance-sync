@@ -19,11 +19,6 @@ jobs:
           python-version: "3.12"
       - run: pip install requests cryptography
       - run: python fetch_attendance.py
-        env:
-          CV_USER: ${{ secrets.CV_USER }}
-          CV_PASS: ${{ secrets.CV_PASS }}
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
       - name: Commit
         run: |
           git config user.name "sync-bot"
