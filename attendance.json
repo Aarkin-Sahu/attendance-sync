@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15T14:39:34+00:00",
+  "last_updated": "2026-10-16T05:56:53+00:00",
   "data": {
     "fullName": "Aarkin Sahu",
     "firstName": "Aarkin",
@@ -28,10 +28,10 @@
           {
             "componentName": "BLENDED",
             "courseVariant": "CS302B-Bachelor of Technology-CS302B-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 44.0,
+            "numberOfPeriods": 45.0,
             "numberOfPresent": 40.0,
-            "presentPercentage": 91.0,
-            "presentPercentageWith": "91%",
+            "presentPercentage": 89.0,
+            "presentPercentageWith": "89%",
             "courseComponentId": 351,
             "courseRegisterDate": "2026-08-01",
             "courseAttendanceDate": null,
@@ -39,6 +39,13 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-16",
+                "day": "FRIDAY",
+                "time": "09:10 AM - 10:00 AM",
+                "type": "REGULAR",
+                "status": "ABSENT"
+              },
               {
                 "date": "2026-10-14",
                 "day": "WEDNESDAY",
@@ -77,14 +84,14 @@
               {
                 "date": "2026-10-09",
                 "day": "FRIDAY",
-                "time": "09:10 AM - 10:00 AM",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-10-09",
                 "day": "FRIDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "time": "09:10 AM - 10:00 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -238,14 +245,14 @@
               {
                 "date": "2026-08-31",
                 "day": "MONDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-08-31",
                 "day": "MONDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -452,21 +459,14 @@
               {
                 "date": "2026-10-15",
                 "day": "THURSDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "ABSENT"
               },
               {
                 "date": "2026-10-15",
                 "day": "THURSDAY",
-                "time": "10:50 AM - 11:40 AM",
-                "type": "REGULAR",
-                "status": "ABSENT"
-              },
-              {
-                "date": "2026-10-14",
-                "day": "WEDNESDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "ABSENT"
               },
@@ -476,6 +476,13 @@
                 "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
+              },
+              {
+                "date": "2026-10-14",
+                "day": "WEDNESDAY",
+                "time": "10:50 AM - 11:40 AM",
+                "type": "REGULAR",
+                "status": "ABSENT"
               },
               {
                 "date": "2026-10-13",
@@ -487,14 +494,14 @@
               {
                 "date": "2026-10-10",
                 "day": "SATURDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-10-10",
                 "day": "SATURDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -508,14 +515,14 @@
               {
                 "date": "2026-10-08",
                 "day": "THURSDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-10-08",
                 "day": "THURSDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -543,14 +550,14 @@
               {
                 "date": "2026-10-01",
                 "day": "THURSDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-10-01",
                 "day": "THURSDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -585,14 +592,14 @@
               {
                 "date": "2026-09-17",
                 "day": "THURSDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "ABSENT"
               },
               {
                 "date": "2026-09-17",
                 "day": "THURSDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "ABSENT"
               },
@@ -641,14 +648,14 @@
               {
                 "date": "2026-09-10",
                 "day": "THURSDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-09-10",
                 "day": "THURSDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -753,14 +760,14 @@
               {
                 "date": "2026-08-19",
                 "day": "WEDNESDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-08-19",
                 "day": "WEDNESDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -788,14 +795,14 @@
               {
                 "date": "2026-08-13",
                 "day": "THURSDAY",
-                "time": "04:00 PM - 04:50 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-08-13",
                 "day": "THURSDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "04:00 PM - 04:50 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1065,14 +1072,14 @@
               {
                 "date": "2026-08-13",
                 "day": "THURSDAY",
-                "time": "10:00 AM - 10:50 AM",
+                "time": "03:10 PM - 04:00 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-08-13",
                 "day": "THURSDAY",
-                "time": "03:10 PM - 04:00 PM",
+                "time": "10:00 AM - 10:50 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1109,14 +1116,14 @@
               {
                 "date": "2026-10-09",
                 "day": "FRIDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "12:30 PM - 01:20 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-10-09",
                 "day": "FRIDAY",
-                "time": "12:30 PM - 01:20 PM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1151,20 +1158,13 @@
               {
                 "date": "2026-08-21",
                 "day": "FRIDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "12:30 PM - 01:20 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-08-21",
                 "day": "FRIDAY",
-                "time": "12:30 PM - 01:20 PM",
-                "type": "REGULAR",
-                "status": "PRESENT"
-              },
-              {
-                "date": "2026-08-14",
-                "day": "FRIDAY",
                 "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
@@ -1173,6 +1173,13 @@
                 "date": "2026-08-14",
                 "day": "FRIDAY",
                 "time": "12:30 PM - 01:20 PM",
+                "type": "REGULAR",
+                "status": "PRESENT"
+              },
+              {
+                "date": "2026-08-14",
+                "day": "FRIDAY",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               }
@@ -1188,10 +1195,10 @@
           {
             "componentName": "BLENDED",
             "courseVariant": "CS336B-Bachelor of Technology-CS336B-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 47.0,
+            "numberOfPeriods": 48.0,
             "numberOfPresent": 42.0,
-            "presentPercentage": 89.0,
-            "presentPercentageWith": "89%",
+            "presentPercentage": 88.0,
+            "presentPercentageWith": "88%",
             "courseComponentId": 625,
             "courseRegisterDate": "2026-08-01",
             "courseAttendanceDate": null,
@@ -1199,6 +1206,13 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-15",
+                "day": "THURSDAY",
+                "time": "12:30 PM - 01:20 PM",
+                "type": "REGULAR",
+                "status": "ABSENT"
+              },
               {
                 "date": "2026-10-14",
                 "day": "WEDNESDAY",
@@ -1258,14 +1272,14 @@
               {
                 "date": "2026-10-06",
                 "day": "TUESDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "12:30 PM - 01:20 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-10-06",
                 "day": "TUESDAY",
-                "time": "12:30 PM - 01:20 PM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1293,14 +1307,14 @@
               {
                 "date": "2026-09-29",
                 "day": "TUESDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "12:30 PM - 01:20 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-09-29",
                 "day": "TUESDAY",
-                "time": "12:30 PM - 01:20 PM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1335,14 +1349,14 @@
               {
                 "date": "2026-09-15",
                 "day": "TUESDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "12:30 PM - 01:20 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-09-15",
                 "day": "TUESDAY",
-                "time": "12:30 PM - 01:20 PM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1384,14 +1398,14 @@
               {
                 "date": "2026-09-08",
                 "day": "TUESDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "12:30 PM - 01:20 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-09-08",
                 "day": "TUESDAY",
-                "time": "12:30 PM - 01:20 PM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1440,16 +1454,16 @@
               {
                 "date": "2026-08-25",
                 "day": "TUESDAY",
-                "time": "12:30 PM - 01:20 PM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
-                "status": "ABSENT"
+                "status": "PRESENT"
               },
               {
                 "date": "2026-08-25",
                 "day": "TUESDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "12:30 PM - 01:20 PM",
                 "type": "REGULAR",
-                "status": "PRESENT"
+                "status": "ABSENT"
               },
               {
                 "date": "2026-08-24",
@@ -1489,14 +1503,14 @@
               {
                 "date": "2026-08-18",
                 "day": "TUESDAY",
-                "time": "12:30 PM - 01:20 PM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-08-18",
                 "day": "TUESDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "12:30 PM - 01:20 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1766,14 +1780,14 @@
               {
                 "date": "2026-10-15",
                 "day": "THURSDAY",
-                "time": "03:10 PM - 04:00 PM",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "ABSENT"
               },
               {
                 "date": "2026-10-15",
                 "day": "THURSDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "time": "03:10 PM - 04:00 PM",
                 "type": "REGULAR",
                 "status": "ABSENT"
               },
@@ -1815,14 +1829,14 @@
               {
                 "date": "2026-09-12",
                 "day": "SATURDAY",
-                "time": "03:10 PM - 04:00 PM",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-09-12",
                 "day": "SATURDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "time": "03:10 PM - 04:00 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1843,14 +1857,14 @@
               {
                 "date": "2026-09-03",
                 "day": "THURSDAY",
-                "time": "03:10 PM - 04:00 PM",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-09-03",
                 "day": "THURSDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "time": "03:10 PM - 04:00 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
