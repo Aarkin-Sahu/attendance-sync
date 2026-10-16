@@ -2,11 +2,27 @@ name: sync-attendance
 
 on:
   schedule:
-    - cron: "0 */2 * * *"   # every 2 hours (UTC), may start a few minutes late
+    # GitHub cron uses UTC. IST = UTC + 5:30. Runs may start a few minutes late.
+    - cron: "0 8 * * *"     # 1:30 PM IST (lunch break)
+    - cron: "30 12 * * *"   # 6:00 PM IST
+    # (9 PM and 11 PM daily runs removed for testing - add back after 16 Oct)
+    # ---- ONE-DAY EXTRA RUNS: Friday 16 Oct 2026 only (delete these lines afterwards) ----
+    - cron: "35 4 16 10 *"   # 10:05 AM IST, after period 1
+    - cron: "25 5 16 10 *"   # 10:55 AM IST, after period 2
+    - cron: "15 6 16 10 *"   # 11:45 AM IST, after period 3
+    - cron: "5 7 16 10 *"    # 12:35 PM IST, after period 4 (1:30 PM daily run covers period 5)
+    - cron: "45 9 16 10 *"   # 3:15 PM IST, after period 7
+    - cron: "35 10 16 10 *"  # 4:05 PM IST, after period 8
+    - cron: "25 11 16 10 *"  # 4:55 PM IST, after period 9
+    - cron: "30 16 16 10 *"  # 10:00 PM IST
   workflow_dispatch:         # run manually from the Actions tab
 
 permissions:
   contents: write
+
+concurrency:
+  group: sync-attendance
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -24,4 +40,7 @@ jobs:
           git config user.name "sync-bot"
           git config user.email "sync-bot@users.noreply.github.com"
           git add attendance.json
-          git diff --cached --quiet || (git commit -m "update attendance" && git pull --rebase && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "update attendance"
+          git pull --rebase -X theirs
+          git push
