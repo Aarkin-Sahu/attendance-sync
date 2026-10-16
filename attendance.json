@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T08:23:20+00:00",
+  "last_updated": "2026-10-16T11:24:46+00:00",
   "data": {
     "fullName": "Aarkin Sahu",
     "firstName": "Aarkin",
@@ -1102,10 +1102,10 @@
           {
             "componentName": "PRACTICAL",
             "courseVariant": "IT301P-Bachelor of Technology-IT301P-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 10.0,
+            "numberOfPeriods": 12.0,
             "numberOfPresent": 10.0,
-            "presentPercentage": 100.0,
-            "presentPercentageWith": "100%",
+            "presentPercentage": 83.0,
+            "presentPercentageWith": "83%",
             "courseComponentId": 353,
             "courseRegisterDate": "2026-08-01",
             "courseAttendanceDate": null,
@@ -1113,6 +1113,20 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-16",
+                "day": "FRIDAY",
+                "time": "11:40 AM - 12:30 PM",
+                "type": "REGULAR",
+                "status": "ABSENT"
+              },
+              {
+                "date": "2026-10-16",
+                "day": "FRIDAY",
+                "time": "12:30 PM - 01:20 PM",
+                "type": "REGULAR",
+                "status": "ABSENT"
+              },
               {
                 "date": "2026-10-09",
                 "day": "FRIDAY",
