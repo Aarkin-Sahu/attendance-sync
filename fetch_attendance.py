@@ -184,14 +184,22 @@ def add_lectures(s, token, data):
                 log(f"Missing IDs for {name}: studentId={student_id} courseId={cid} compId={comp}; "
                     f"course keys={sorted(course)}; component keys={sorted(k)}")
                 continue
-            try:
-                r = s.post(LECTURE_URL, headers=hdr, timeout=30, json={
-                    "studentId": student_id, "sessionId": None,
-                    "courseId": cid, "courseCompId": comp})
-                r.raise_for_status()
-                items = r.json().get("data") or []
-            except Exception as e:
-                log(f"Lecture fetch failed for {name}: {type(e).__name__}: {e}")
+            items = None
+            last_err = None
+            for attempt in (1, 2):   # one retry: a timeout is often just a slow moment
+                try:
+                    r = s.post(LECTURE_URL, headers=hdr, timeout=60, json={
+                        "studentId": student_id, "sessionId": None,
+                        "courseId": cid, "courseCompId": comp})
+                    r.raise_for_status()
+                    items = r.json().get("data") or []
+                    break
+                except Exception as e:
+                    last_err = e
+                    if attempt == 1:
+                        time.sleep(3)
+            if items is None:
+                log(f"Lecture fetch failed for {name}: {type(last_err).__name__}: {last_err}")
                 continue
             lectures = [{"date": l.get("planLecDate"), "day": l.get("dayName"),
                          "time": l.get("timeSlot"), "type": l.get("lectureType"),
