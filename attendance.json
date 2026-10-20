@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T13:17:10+00:00",
+  "last_updated": "2026-10-20T15:44:21+00:00",
   "data": {
     "fullName": "Aarkin Sahu",
     "firstName": "Aarkin",
@@ -175,14 +175,14 @@
               {
                 "date": "2026-09-14",
                 "day": "MONDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-09-14",
                 "day": "MONDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -550,14 +550,14 @@
               {
                 "date": "2026-10-01",
                 "day": "THURSDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-10-01",
                 "day": "THURSDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -592,14 +592,14 @@
               {
                 "date": "2026-09-17",
                 "day": "THURSDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "ABSENT"
               },
               {
                 "date": "2026-09-17",
                 "day": "THURSDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "ABSENT"
               },
@@ -683,14 +683,14 @@
               {
                 "date": "2026-09-03",
                 "day": "THURSDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-09-03",
                 "day": "THURSDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -746,14 +746,14 @@
               {
                 "date": "2026-08-20",
                 "day": "THURSDAY",
-                "time": "04:00 PM - 04:50 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-08-20",
                 "day": "THURSDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "04:00 PM - 04:50 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1072,14 +1072,14 @@
               {
                 "date": "2026-08-13",
                 "day": "THURSDAY",
-                "time": "10:00 AM - 10:50 AM",
+                "time": "03:10 PM - 04:00 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-08-13",
                 "day": "THURSDAY",
-                "time": "03:10 PM - 04:00 PM",
+                "time": "10:00 AM - 10:50 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1524,14 +1524,14 @@
               {
                 "date": "2026-08-18",
                 "day": "TUESDAY",
-                "time": "12:30 PM - 01:20 PM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-08-18",
                 "day": "TUESDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "12:30 PM - 01:20 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1815,21 +1815,14 @@
               {
                 "date": "2026-10-08",
                 "day": "THURSDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "time": "03:10 PM - 04:00 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-10-08",
                 "day": "THURSDAY",
-                "time": "03:10 PM - 04:00 PM",
-                "type": "REGULAR",
-                "status": "PRESENT"
-              },
-              {
-                "date": "2026-10-01",
-                "day": "THURSDAY",
-                "time": "03:10 PM - 04:00 PM",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1837,6 +1830,13 @@
                 "date": "2026-10-01",
                 "day": "THURSDAY",
                 "time": "02:20 PM - 03:10 PM",
+                "type": "REGULAR",
+                "status": "PRESENT"
+              },
+              {
+                "date": "2026-10-01",
+                "day": "THURSDAY",
+                "time": "03:10 PM - 04:00 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1864,14 +1864,14 @@
               {
                 "date": "2026-09-10",
                 "day": "THURSDAY",
-                "time": "03:10 PM - 04:00 PM",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-09-10",
                 "day": "THURSDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "time": "03:10 PM - 04:00 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1906,14 +1906,14 @@
               {
                 "date": "2026-08-14",
                 "day": "FRIDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "time": "03:10 PM - 04:00 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-08-14",
                 "day": "FRIDAY",
-                "time": "03:10 PM - 04:00 PM",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               }
