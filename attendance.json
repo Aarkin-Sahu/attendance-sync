@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T20:47:39+00:00",
+  "last_updated": "2026-10-21T08:45:12+00:00",
   "data": {
     "fullName": "Aarkin Sahu",
     "firstName": "Aarkin",
@@ -1575,10 +1575,10 @@
           {
             "componentName": "THEORY",
             "courseVariant": "CS206L-Bachelor of Technology-CS206L-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 27.0,
-            "numberOfPresent": 23.0,
-            "presentPercentage": 85.0,
-            "presentPercentageWith": "85%",
+            "numberOfPeriods": 28.0,
+            "numberOfPresent": 24.0,
+            "presentPercentage": 86.0,
+            "presentPercentageWith": "86%",
             "courseComponentId": 230,
             "courseRegisterDate": "2026-08-01",
             "courseAttendanceDate": null,
@@ -1586,6 +1586,13 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-21",
+                "day": "WEDNESDAY",
+                "time": "10:00 AM - 10:50 AM",
+                "type": "REGULAR",
+                "status": "PRESENT"
+              },
               {
                 "date": "2026-10-15",
                 "day": "THURSDAY",
@@ -1929,8 +1936,8 @@
           {
             "componentName": "THEORY",
             "courseVariant": "MA105L-Bachelor of Technology-MA105L-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 24.0,
-            "numberOfPresent": 22.0,
+            "numberOfPeriods": 25.0,
+            "numberOfPresent": 23.0,
             "presentPercentage": 92.0,
             "presentPercentageWith": "92%",
             "courseComponentId": 344,
@@ -1940,6 +1947,13 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-21",
+                "day": "WEDNESDAY",
+                "time": "11:40 AM - 12:30 PM",
+                "type": "REGULAR",
+                "status": "PRESENT"
+              },
               {
                 "date": "2026-10-16",
                 "day": "FRIDAY",
