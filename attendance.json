@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T08:49:01+00:00",
+  "last_updated": "2026-10-21T10:24:25+00:00",
   "data": {
     "fullName": "Aarkin Sahu",
     "firstName": "Aarkin",
@@ -28,10 +28,10 @@
           {
             "componentName": "BLENDED",
             "courseVariant": "CS302B-Bachelor of Technology-CS302B-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 45.0,
+            "numberOfPeriods": 46.0,
             "numberOfPresent": 40.0,
-            "presentPercentage": 89.0,
-            "presentPercentageWith": "89%",
+            "presentPercentage": 87.0,
+            "presentPercentageWith": "87%",
             "courseComponentId": 351,
             "courseRegisterDate": "2026-08-01",
             "courseAttendanceDate": null,
@@ -39,6 +39,13 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-21",
+                "day": "WEDNESDAY",
+                "time": "09:10 AM - 10:00 AM",
+                "type": "REGULAR",
+                "status": "ABSENT"
+              },
               {
                 "date": "2026-10-16",
                 "day": "FRIDAY",
@@ -911,8 +918,8 @@
           {
             "componentName": "THEORY",
             "courseVariant": "IT301L-Bachelor of Technology-IT301L-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 24.0,
-            "numberOfPresent": 23.0,
+            "numberOfPeriods": 25.0,
+            "numberOfPresent": 24.0,
             "presentPercentage": 96.0,
             "presentPercentageWith": "96%",
             "courseComponentId": 342,
@@ -922,6 +929,13 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-21",
+                "day": "WEDNESDAY",
+                "time": "12:30 PM - 01:20 PM",
+                "type": "REGULAR",
+                "status": "PRESENT"
+              },
               {
                 "date": "2026-10-14",
                 "day": "WEDNESDAY",
