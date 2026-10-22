@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T04:06:42+00:00",
+  "last_updated": "2026-10-22T05:44:17+00:00",
   "data": {
     "fullName": "Aarkin Sahu",
     "firstName": "Aarkin",
@@ -1603,8 +1603,8 @@
           {
             "componentName": "THEORY",
             "courseVariant": "CS206L-Bachelor of Technology-CS206L-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 28.0,
-            "numberOfPresent": 24.0,
+            "numberOfPeriods": 29.0,
+            "numberOfPresent": 25.0,
             "presentPercentage": 86.0,
             "presentPercentageWith": "86%",
             "courseComponentId": 230,
@@ -1614,6 +1614,13 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-22",
+                "day": "THURSDAY",
+                "time": "10:00 AM - 10:50 AM",
+                "type": "REGULAR",
+                "status": "PRESENT"
+              },
               {
                 "date": "2026-10-21",
                 "day": "WEDNESDAY",
