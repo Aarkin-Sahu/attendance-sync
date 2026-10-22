@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T15:56:16+00:00",
+  "last_updated": "2026-10-22T19:21:13+00:00",
   "data": {
     "fullName": "Aarkin Sahu",
     "firstName": "Aarkin",
@@ -1251,8 +1251,8 @@
           {
             "componentName": "BLENDED",
             "courseVariant": "CS336B-Bachelor of Technology-CS336B-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 49.0,
-            "numberOfPresent": 42.0,
+            "numberOfPeriods": 51.0,
+            "numberOfPresent": 44.0,
             "presentPercentage": 86.0,
             "presentPercentageWith": "86%",
             "courseComponentId": 625,
@@ -1262,6 +1262,20 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-22",
+                "day": "THURSDAY",
+                "time": "12:30 PM - 01:20 PM",
+                "type": "REGULAR",
+                "status": "PRESENT"
+              },
+              {
+                "date": "2026-10-21",
+                "day": "WEDNESDAY",
+                "time": "03:10 PM - 04:00 PM",
+                "type": "REGULAR",
+                "status": "PRESENT"
+              },
               {
                 "date": "2026-10-16",
                 "day": "FRIDAY",
