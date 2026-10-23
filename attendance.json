@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T13:02:45+00:00",
+  "last_updated": "2026-10-23T15:48:12+00:00",
   "data": {
     "fullName": "Aarkin Sahu",
     "firstName": "Aarkin",
@@ -459,10 +459,10 @@
           {
             "componentName": "BLENDED",
             "courseVariant": "CS205B-Bachelor of Technology-CS205B-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 55.0,
-            "numberOfPresent": 47.0,
-            "presentPercentage": 85.0,
-            "presentPercentageWith": "85%",
+            "numberOfPeriods": 56.0,
+            "numberOfPresent": 48.0,
+            "presentPercentage": 86.0,
+            "presentPercentageWith": "86%",
             "courseComponentId": 352,
             "courseRegisterDate": "2026-08-01",
             "courseAttendanceDate": null,
@@ -470,6 +470,13 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-23",
+                "day": "FRIDAY",
+                "time": "04:00 PM - 04:50 PM",
+                "type": "REGULAR",
+                "status": "PRESENT"
+              },
               {
                 "date": "2026-10-22",
                 "day": "THURSDAY",
