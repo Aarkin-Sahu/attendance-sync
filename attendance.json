@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T20:43:34+00:00",
+  "last_updated": "2026-10-23T08:47:50+00:00",
   "data": {
     "fullName": "Aarkin Sahu",
     "firstName": "Aarkin",
@@ -28,10 +28,10 @@
           {
             "componentName": "BLENDED",
             "courseVariant": "CS302B-Bachelor of Technology-CS302B-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 46.0,
+            "numberOfPeriods": 47.0,
             "numberOfPresent": 40.0,
-            "presentPercentage": 87.0,
-            "presentPercentageWith": "87%",
+            "presentPercentage": 85.0,
+            "presentPercentageWith": "85%",
             "courseComponentId": 351,
             "courseRegisterDate": "2026-08-01",
             "courseAttendanceDate": null,
@@ -39,6 +39,13 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-23",
+                "day": "FRIDAY",
+                "time": "09:10 AM - 10:00 AM",
+                "type": "REGULAR",
+                "status": "ABSENT"
+              },
               {
                 "date": "2026-10-21",
                 "day": "WEDNESDAY",
@@ -529,14 +536,14 @@
               {
                 "date": "2026-10-10",
                 "day": "SATURDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-10-10",
                 "day": "SATURDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -550,14 +557,14 @@
               {
                 "date": "2026-10-08",
                 "day": "THURSDAY",
-                "time": "10:50 AM - 11:40 AM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-10-08",
                 "day": "THURSDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -774,13 +781,6 @@
               {
                 "date": "2026-08-20",
                 "day": "THURSDAY",
-                "time": "11:40 AM - 12:30 PM",
-                "type": "REGULAR",
-                "status": "PRESENT"
-              },
-              {
-                "date": "2026-08-20",
-                "day": "THURSDAY",
                 "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
@@ -793,9 +793,9 @@
                 "status": "PRESENT"
               },
               {
-                "date": "2026-08-19",
-                "day": "WEDNESDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "date": "2026-08-20",
+                "day": "THURSDAY",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -803,6 +803,13 @@
                 "date": "2026-08-19",
                 "day": "WEDNESDAY",
                 "time": "10:50 AM - 11:40 AM",
+                "type": "REGULAR",
+                "status": "PRESENT"
+              },
+              {
+                "date": "2026-08-19",
+                "day": "WEDNESDAY",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -823,13 +830,6 @@
               {
                 "date": "2026-08-13",
                 "day": "THURSDAY",
-                "time": "11:40 AM - 12:30 PM",
-                "type": "REGULAR",
-                "status": "PRESENT"
-              },
-              {
-                "date": "2026-08-13",
-                "day": "THURSDAY",
                 "time": "10:50 AM - 11:40 AM",
                 "type": "REGULAR",
                 "status": "PRESENT"
@@ -838,6 +838,13 @@
                 "date": "2026-08-13",
                 "day": "THURSDAY",
                 "time": "04:00 PM - 04:50 PM",
+                "type": "REGULAR",
+                "status": "PRESENT"
+              },
+              {
+                "date": "2026-08-13",
+                "day": "THURSDAY",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -860,10 +867,10 @@
           {
             "componentName": "THEORY",
             "courseVariant": "HS109L-Bachelor of Technology-HS109L-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 9.0,
-            "numberOfPresent": 8.0,
-            "presentPercentage": 89.0,
-            "presentPercentageWith": "89%",
+            "numberOfPeriods": 10.0,
+            "numberOfPresent": 9.0,
+            "presentPercentage": 90.0,
+            "presentPercentageWith": "90%",
             "courseComponentId": 348,
             "courseRegisterDate": "2026-08-01",
             "courseAttendanceDate": null,
@@ -871,6 +878,13 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-22",
+                "day": "THURSDAY",
+                "time": "09:10 AM - 10:00 AM",
+                "type": "REGULAR",
+                "status": "PRESENT"
+              },
               {
                 "date": "2026-10-15",
                 "day": "THURSDAY",
@@ -1158,14 +1172,14 @@
               {
                 "date": "2026-10-16",
                 "day": "FRIDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "12:30 PM - 01:20 PM",
                 "type": "REGULAR",
                 "status": "ABSENT"
               },
               {
                 "date": "2026-10-16",
                 "day": "FRIDAY",
-                "time": "12:30 PM - 01:20 PM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "ABSENT"
               },
@@ -1214,14 +1228,14 @@
               {
                 "date": "2026-08-21",
                 "day": "FRIDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "12:30 PM - 01:20 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-08-21",
                 "day": "FRIDAY",
-                "time": "12:30 PM - 01:20 PM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1475,14 +1489,14 @@
               {
                 "date": "2026-09-08",
                 "day": "TUESDAY",
-                "time": "11:40 AM - 12:30 PM",
+                "time": "12:30 PM - 01:20 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-09-08",
                 "day": "TUESDAY",
-                "time": "12:30 PM - 01:20 PM",
+                "time": "11:40 AM - 12:30 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -1885,14 +1899,14 @@
               {
                 "date": "2026-10-15",
                 "day": "THURSDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "time": "03:10 PM - 04:00 PM",
                 "type": "REGULAR",
                 "status": "ABSENT"
               },
               {
                 "date": "2026-10-15",
                 "day": "THURSDAY",
-                "time": "03:10 PM - 04:00 PM",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "ABSENT"
               },
@@ -1976,14 +1990,14 @@
               {
                 "date": "2026-08-21",
                 "day": "FRIDAY",
-                "time": "03:10 PM - 04:00 PM",
+                "time": "02:20 PM - 03:10 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
               {
                 "date": "2026-08-21",
                 "day": "FRIDAY",
-                "time": "02:20 PM - 03:10 PM",
+                "time": "03:10 PM - 04:00 PM",
                 "type": "REGULAR",
                 "status": "PRESENT"
               },
@@ -2013,10 +2027,10 @@
           {
             "componentName": "THEORY",
             "courseVariant": "MA105L-Bachelor of Technology-MA105L-2026-2027 Odd-CSE-III-A",
-            "numberOfPeriods": 25.0,
+            "numberOfPeriods": 26.0,
             "numberOfPresent": 23.0,
-            "presentPercentage": 92.0,
-            "presentPercentageWith": "92%",
+            "presentPercentage": 88.0,
+            "presentPercentageWith": "88%",
             "courseComponentId": 344,
             "courseRegisterDate": "2026-08-03",
             "courseAttendanceDate": null,
@@ -2024,6 +2038,13 @@
             "attendanceAdjusted": null,
             "numberOfExtraAttendance": 0.0,
             "lectures": [
+              {
+                "date": "2026-10-23",
+                "day": "FRIDAY",
+                "time": "10:00 AM - 10:50 AM",
+                "type": "REGULAR",
+                "status": "ABSENT"
+              },
               {
                 "date": "2026-10-21",
                 "day": "WEDNESDAY",
